@@ -1,12 +1,12 @@
 # I4P feladat - Rejtjelező algoritmus
 Duális képzés
- 
-## 1 Titkosítás menete
+# 1 feladat
+## Titkosítás menete
 - Üzenet és kulcs karaktereinek számait összeadjuk.  
 - Ha nagyobb, mint 26 → osztás maradéka 27-tel.  
 - Így kapjuk a rejtjel karaktereit.  
 
-## 2 Fejtés menete
+## Fejtés menete
 1. Vegyük a titkosított üzenet (rejtjel) és a kulcs azonos pozíciójú karaktereit.  
 2. Kérjük le mindkettő számértékét az `abc` listából:  
    - `hely_rejtjel = abc.index(rejtjel_karakter)`  
