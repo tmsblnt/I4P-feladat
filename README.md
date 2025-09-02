@@ -1,7 +1,6 @@
-# I4P feladat
+# I4P feladat - Rejtjelező algoritmus
 Duális képzés
-# Rejtjelező algoritmus
-
+ 
 ## 1 Titkosítás menete
 - Üzenet és kulcs karaktereinek számait összeadjuk.  
 - Ha nagyobb, mint 26 → osztás maradéka 27-tel.  
