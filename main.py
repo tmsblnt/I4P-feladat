@@ -36,4 +36,18 @@ with open("words.txt", "r", encoding="UTF-8") as f:
         szo = szo.strip()
         if szo:
             szavak.append(szo)
-print(szavak)    
+
+
+keresettszo = "curious"
+hasonlo = []
+
+for szo in szavak:
+    if keresettszo in szo:  
+        hasonlo.append(szo)
+        print(szo)  
+
+print("Összes hasonló szó:", hasonlo)
+
+if "curiosity" in szavak:
+    print("A curiosity szó benne van a listában.")
+    
