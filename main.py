@@ -28,3 +28,12 @@ def fejtes(rejtjel, kulcs):
     return fejtett
 
 print(titkosit("helloworld","abcdefgijkl") + "\n" + fejtes("helloworld","abcdefgijkl"))
+
+# 2. feladat
+szavak = []
+with open("words.txt", "r", encoding="UTF-8") as f:
+    for szo in f:
+        szo = szo.strip()
+        if szo:
+            szavak.append(szo)
+print(szavak)    
