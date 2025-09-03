@@ -12,3 +12,8 @@ Duális képzés
    - `hely_rejtjel = abc.index(rejtjel_karakter)`  
    - `hely_kulcs = abc.index(kulcs_karakter)`  
 3. Vonjuk ki a kulcs számát a rejtjel számából, majd vegyük a maradékot 27-tel és ezáltal megkapjuk az eredeti üzenetet 
+
+# 2 feladat
+## Lista beolvasása
+With open használatával
+- `with open("words.txt", "r", encoding="UTF-8") as f:`
